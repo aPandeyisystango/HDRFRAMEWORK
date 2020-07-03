@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HDRFramework'
-  s.version          = '0.0.1'
+  s.version          = '0.0.7'
   s.summary          = 'A custom camera framework'
 
   s.description      = 'A custom camera framework where you take HDR & Wide Angle images.'
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Source/**/*.{mm,h,m,swift}'
+  s.source_files = 'Source/**/*.{mm,h,m,swift}'|
   s.swift_version    = "5.0"
   s.platform         = :ios, "11.0"
 end
