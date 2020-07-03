@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HDRFramework/**/*'
+  s.source_files = '**/*'
   s.swift_version    = "5.0"
   s.platform         = :ios, "11.0"
 end
